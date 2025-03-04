@@ -1,9 +1,4 @@
 
- **Seletor de cores
-
- Link
-
- 
 # Seletor de cores
 Desenvolvedor: Kennedy Crispim Gonçalves
 
