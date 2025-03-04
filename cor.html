@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-cor.css">
+  <link rel="icon" type="icon" href="images/icons/icon.png">
+  <title>Seletor de cores</title>
+</head>
+<body>
+  <section>
+    <input type="color" class="color" id="cor1" value="#741952" onchange="clique()">
+    <input type="color" class="color" id="cor2" value="#fe3174"  onchange="clique()">
+    <input type="color" class="color" id="cor3" value="#B21ABC"  onchange="clique()">
+    <input type="color" class="color" id="cor4" value="#23145b"  onchange="clique()">
+    <div class="box-position">
+      <div class="box">
+        <h2>Selecione o efeito</h2>
+        <select id="select" name="select" onchange="clique()">
+          <option value="to right"selected>to right</option>
+          <option value="to left">to left</option>
+          <option value="radial-gradient">radial-gradient</option>
+        </select>
+      </div>
+    </div>
+  </section>
+  <script src="js/main.js">clique()</script>
+</body>
+</html>
